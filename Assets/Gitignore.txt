@@ -1,0 +1,18 @@
+git init
+git add .gitignore
+git commit -m "Initial: Add gitignore"
+
+git add Assets/Scripts/GameManager.cs
+git commit -m "Core: Add main game logic and UI"
+
+git add Assets/Scripts/UpgradeData.cs Assets/ScriptableObjects/
+git commit -m "Upgrades: Add ScriptableObject system"
+
+git add Assets/Scripts/LeaderboardManager.cs
+git commit -m "Features: Add mock leaderboard with API simulation"
+
+git add Assets/Scripts/Scripts.asmdef
+git commit -m "Structure: Add assembly definition"
+
+git add -A
+git commit -m "Final: Complete minimal clicker game"
